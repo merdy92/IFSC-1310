@@ -12,6 +12,9 @@
 
 <body>
   <h1>Mary Henry</h1>
+  <nav>
+  <ul>
+<li><a href="prototype/index.html/" Prototype Assignment> </a></li>
 </body>
 </html>
 view raw
