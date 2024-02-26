@@ -1,0 +1,176 @@
+/* ---- CSS Demo ---- */
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /*  --------------- Responsive Images -----------------  */
+
+img{
+  max-width:100%;
+}
+
+  /*  --------------- Utility Classes -----------------  */
+
+.container{
+  max-width: 960px;
+  width:80vw;
+  margin: 40px auto;
+}
+  
+  /*  --------------- Global Styles -----------------  */
+  
+  body{
+  font-family: "Gabarito", sans-serif;
+  margin: 0;
+  }
+  
+  header.primary {
+  background-color: #81b8ef;
+  color:#ffffff; 
+  text-align:center;  
+  text-shadow:2px 2px 20px #000000;  
+  padding: 10px;
+  }
+  header.primary h1 {
+    font-size: 2.4rem;
+   
+  }
+  header.primary h1 a{
+    color:#ffffff;
+text-decoration:wavy;
+}
+header.primary h2 {
+    margin:0;
+    font-size: 1.4rem;
+  }
+  header.primary nav{
+  max-width: 900px;
+  margin: auto;
+  }
+  header.primary ul {
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  header.primary ul li{
+    list-style-type:none
+  }
+  header.primary nav a{
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #0f648c;
+    padding:5px 10px;
+  border-radius: 20px;
+  border: 1px solid#ffffff;
+  transition: 5.4s;
+  }
+  header.primary nav a:hover{
+    background-color:rgba(0,0,0,.8);
+  }
+  #content h2{
+    color: #3b638b;
+    border-bottom:1px dotted #c0c0c0;
+   }
+   #content h3{
+    border-left: 7.5px solid #3b638b;
+    padding: 7.5px;
+  }
+  #blog{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  #blog .post{
+    box-shadow: 0 8px 16px rgba(0,0,0,.6);
+    padding: 10px;
+    border-radius:4px;
+    font-size:.8rem;
+  }
+  #blog figure{
+    margin:0;
+  }
+  #blog figcaption{
+    text-transform:uppercase;
+    font-size:.6rem;
+    text-align:center;
+    color:#c0c0c0;
+  }
+  
+  #blog header{
+    background:#81b8ef;
+    padding-top: 10px;
+    font-size: .6rem;
+  }
+  #blog header h2{
+    margin:0;
+    color:#c0c0c0;
+
+    #blog a{
+      color:#3b638b;
+    }
+    
+    #blog .post:hover{
+      box-shadow: 0 8px 16px rgba(0,0,0,.6);
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    header.primary ul {
+      flex-direction: column;
+      gap: 20 px;
+      max-width:250px;
+      margin: auto;
+    }
+    header.primary nav a{
+      display:block;
+    
+    }
+  }
+  
+   
+  
+  
+  
+  
+  

@@ -1,3 +1,19 @@
-body{
-    background-color:cornflowerblue;
+/* ---- CSS Demo ----*/
+/* -------- BOX SIZING --------- */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  /*  --------------- Global Styles -----------------  */
+   
+  body{
+    background-color:rgb(149, 176, 225);
 }
+body{
+     font-family: Geneva, Tahoma, Verdana, sans-serif;
+    }
