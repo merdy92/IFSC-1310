@@ -1,0 +1,38 @@
+
+ /*----- font family -----*/
+ font-family:
+   {"Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+
+  
+h1{
+text-align: center;
+}
+h2{
+    text-align: center;
+}
+/*----nav-----*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+  }
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+/*----- body------*/
+body{
+    background-color: black;
+    color:aliceblue
+}
