@@ -1,8 +1,7 @@
 
  /*----- font family -----*/
 body {
-  margin: 0;
-  color:aliceblue;
+  margin: 0%;
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   font-weight:bold;
@@ -10,25 +9,35 @@ body {
 }
 
 .hero-img {
-  background-image: url("assets/img/SpaceX-Logo.png");
-  background-color: grey;
+  background-image: url(../img/dragon-in-space.jpg)
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.about-container{
+.content{
 background: white;
 color:black;
-padding:4rem
+padding:4rem;
+
 }  
 
-.configurations{
-  /* display: flex;
-  justify-content: center;
-  flex-direction: row; */
+.configurations {
   background-color: black;
-  color: #dddddd;
+  padding:2rem
+
+}
+
+
+
+
+.configuration-container{
+  display: flex;
+  gap: 5rem;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .post{
@@ -40,15 +49,30 @@ padding:4rem
   color: black;
   width: 25%;
   font-size: 12px;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
 .post ul {
   display: flex;
   flex-direction: column;
 }
+.background{
+display: flex;
+justify-content: center;
+gap: 2rem;
+} 
+.background-aside{
+  width: 30%;
+  
+}
 
 h1, h2{
 text-align: center;
+}
+
+th {
+  border-bottom: 2px solid black;
 }
 
 /*----nav-----*/
@@ -66,12 +90,7 @@ ul {
     padding: 0;
     margin-bottom: 2rem;
   }
-  /* li {
-    display: inline;
-  }
-  li {
-    float: left;
-  } */
+ 
   
   a {
     opacity: 0.5;
@@ -80,4 +99,5 @@ ul {
     padding: 10px 40px;
     background-color: #dddddd;
   }
-/*----- body------*/
+  
+  
