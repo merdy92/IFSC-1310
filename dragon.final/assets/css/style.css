@@ -1,5 +1,5 @@
 
- /*----- font family -----*/
+
 body {
   margin: 0%;
   font-family: "Orbitron", sans-serif;
@@ -9,7 +9,6 @@ body {
 }
 
 header {
-  height: 360px;
   z-index: 10;
 }
 
@@ -44,6 +43,7 @@ color:black;
 #content.container{
   margin: 2rem;
 }
+
 #table.container{
   display: flex;
   justify-content: center;
@@ -140,4 +140,20 @@ nav ul li a:hover {
  h2{
   color:#000000;
  }
-  
+  /*-- wanting the answers to not be bold--*/
+ div.answer{
+  font-style: none;
+  color: #504f4f;
+ }
+/*--- wanting images to fit their posts and be center---*/
+.container img {
+  width: 250px;
+  height: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*--- making summary bolder---*/
+summary {
+  font-weight: bolder;
+}
